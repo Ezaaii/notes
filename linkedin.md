@@ -1,4 +1,4 @@
-#Notes de la conférence sur Linkedin.
+# Notes de la conférence sur Linkedin.
 
 ## Principes de base
   ### Pourquoi s'inscrire sur un réseau?
