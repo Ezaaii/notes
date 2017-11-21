@@ -21,7 +21,7 @@
 * ident' tendances marché --> orienté compétences --> diplome
 * découv new relat°
 * personal branding
-  ### diff de fb/insta/etc
+### diff de fb/insta/etc
   * adopter attitude pro
   * uniquement travail
   * pas infos trop persos
