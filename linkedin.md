@@ -1,3 +1,5 @@
+#Notes de la conférence sur Linkedin.
+
 ## Principes de base
   ### Pourquoi s'inscrire sur un réseau?
   * trouver de l'emploi.
@@ -26,7 +28,7 @@
   * uniquement des informations lié au travail.
   * pas d'infos trop persos.
 ## Rédiger votre profile.
-  ### Ne mentionnez que votre expérience des compétences pertinentes (cv en une page - bien centrer toutes les compet ensemble)
+  #### Ne mentionnez que votre expérience des compétences pertinentes (cv en une page - bien centrer toutes les compet ensemble)
   ### Infos importantes
   * formations et cours suivis
   * compétences
