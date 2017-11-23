@@ -26,5 +26,5 @@ while ($donnees = $resultat->fetch())
   echo ' : ';
   echo $donnees['pass'];
 }
-var_dump($donnees);
+echo $resultat;
 ?>
