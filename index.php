@@ -9,18 +9,21 @@ catch(Exception $e)
     // En cas d'erreur, on affiche un message et on arrête tout
         die('Erreur : '.$e->getMessage());
 }
-$query = 'INSERT INTO categories (nom, description) VALUES (?, ?);';
+$query = 'INSERT INTO users (name, mail, pass) VALUES (?, ?);';
 $prep = $pdo->prepare($query);
 
 $prep->bindValue(1, 'bertand', PDO::PARAM_STR);
-$prep->bindValue(2, 'ceci est un test pour desc', PDO::PARAM_STR);
+$prep->bindValue(2, 'mail@mail.mail', PDO::PARAM_STR);
+$prep->bindValue(3, 'paaaaaasss', PDO::PARAM_STR);
 $prep->execute();
-$resultat = $pdo->query('SELECT * FROM categories');
+$resultat = $pdo->query('SELECT * FROM users');
 while ($donnees = $resultat->fetch())
 {
   echo '<br/>';
-  echo $donnees['nom'];
+  echo $donnees['name'];
   echo ' : ';
-  echo $donnees['description'];
+  echo $donnees['mail'];
+  echo ' : ';
+  echo $donnees['pass'];
 }
 ?>
