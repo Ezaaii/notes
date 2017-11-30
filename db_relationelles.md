@@ -1,37 +1,39 @@
 # Notes sur les bases de données relationnelles
 
 ## Exemple tables
-### Table : Créatures
-
-|id | nom|
+### Table : Creatures
+<!-- On crée une table pour lister les créatures -->
+| id | nom |
 |---|---|
-|1 | Bulbizarre|
-|2 | Abra|
-|3 | Salamèche|
-|4 | Evoli|
+| 1 | Bulbizarre |
+| 2 | Abra |
+| 3 | Salamèche |
+| 4 | Evoli |
 
 ### Table : Types
-
-|id | type|
+<!-- On crée une table pour leur donner un type -->
+| id | type |
 |---|---|
-|1 | Plante|
-|2 | Feu|
-|3 | Psy|
-|4 | Eau|
+| 1 | Plante |
+| 2 | Feu |
+| 3 | Psy |
+| 4 | Eau |
 
 ### Table : relationnelles
-
-|id_creature | id_type|
+<!-- On crée une table pour lier les créatures aux types correspondants -->
+| id_creature | id_type |
 |---|---|
-|1 | 1|
-|2 | 3|
-|3 | 2|
-|4 | 1|
-|4 | 2|
-|4 | 3|
-|4 | 4|
+| 1 | 1 |
+| 2 | 3 |
+| 3 | 2 |
+| 4 | 1 |
+| 4 | 2 |
+| 4 | 3 |
+| 4 | 4 |
 
-## Creation de DB
+## Relations
 
 ```
+SELECT * FROM 'creatures','type' WHERE  type.type = 'eau';
 ```
+<!-- j'ai peut-être pas bien noté le where -->
