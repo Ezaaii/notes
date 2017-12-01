@@ -36,4 +36,3 @@
 ```
 SELECT * FROM 'creatures','type' WHERE creatures.types_id=types.types_id and types.type='eau';
 ```
-<!-- j'ai peut-être pas bien noté le where -->

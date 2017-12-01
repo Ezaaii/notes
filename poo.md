@@ -2,8 +2,8 @@
 ### Parce que j'ai rien compris.
 
 Pensez vous que le lion est mort ce soir?
--[ ] Ah oui!
--[ ] Mbowé.
+-[] Ah oui!
+-[] Mbowé.
 
 ## exo 1
 
