@@ -2,8 +2,8 @@
 # [FR] Juste des notes de trucs intéressants.
 
 ### LinkedIn Conference
-  [French](https://github.com/Ezaaii/notes/blob/master/linkedin.md)
-  [English]()
+  * [French](https://github.com/Ezaaii/notes/blob/master/linkedin.md)
+  * [English](https://github.com/Ezaaii/notes/blob/master/linkedinEN.md)
 
 ### Data base (notes)
   [link](https://github.com/Ezaaii/notes/blob/master/db_relationelles.md)
